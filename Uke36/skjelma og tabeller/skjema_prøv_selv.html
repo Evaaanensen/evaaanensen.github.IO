@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="nb" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Skjema_prøv_selv</title>
+  </head>
+  <body style="background-color:pink;font-family:arial;">
+    <h1>Skjema prøv selv</h1>
+      <a href="index.html">hjem</a>
+
+    <form  action="svar.html">
+<!--lager et felt man jan skrive i:-->
+      <label>Navn:</label>
+        <input type="text" name="navn" required placeholder="skriv ditt navn her">
+        <br>
+<!--lager et flet man skriver tall i-->
+      <label>Alder</label>
+        <input type="number" name="Alder" required placeholder="skrivdin alder">
+        <br>
+<!-- lager et felt man skal velge dato med-->
+      <label>Dato</label>
+        <input type="date" name="Dato" required placeholder="skriv dato">
+        <br>
+<!-- lager et flet med glider-->
+      <label>Glider</label>
+        <input type="range" name="Glider" required placeholder="gli den bortover">
+        <br>
+<!-- lager et passord felt-->
+      <label>passord</label>
+        <input type="password" name="passord" required placeholder="skriv inn passordet">
+        <br>
+<!--lager en med fargevelger-->
+      <label>Fargeveger</label>
+        <input type="color" name="farge" required placeholder="velg en farge">
+        <br>
+<!--lager en radioknapp-->
+      <label> Ja</label>
+        <input type="radio" name="rk" required placeholder="trykk på en av knappene">
+      <label>Nei</label>
+        <input type="radio" name="rk" required placeholder="trykk på en av knappene">
+        <br>
+<!--lager avkrysningsbokser-->
+      <label>Avkryssningsbokser</label>
+       <input type="checkbox" name="avsemningsboks"required placeholder="trykk på en av knappene">
+       <br>
+<!--lager en knapp for svar som leder til en annen nettdise med resultatet av svarene-->
+       <button type="submit" name="send inn">send inn svaret</button>
+
+    </form>
+
+  </body>
+</html>
