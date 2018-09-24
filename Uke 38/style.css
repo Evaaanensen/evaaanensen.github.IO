@@ -1,0 +1,25 @@
+body {background-color:grey;
+      font-family: arial;
+      }
+
+
+h1{background-color: pink;
+    font-family: fantasy;
+  padding: 30px;
+  margin: 15px;
+  margin-right: 1000px;}
+
+  ul {list-style-type: none;
+      margin:10
+      padding:20px;}
+
+  ul li {display: inline;
+  border-radius: 5px;
+margin: 20px;}
+
+  ul a {background-color: lightblue;
+        font-family: fantasy;
+        font-size: 18;
+      padding: 15px;}
+
+a:hover {background-color: pink;}
