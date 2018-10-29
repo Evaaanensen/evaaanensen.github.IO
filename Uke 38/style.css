@@ -1,19 +1,17 @@
-body {background-color:grey;
-      font-family: arial;
-      }
+body {background-color:lightblue;
+      font-family: arial;}
 
-
-h1{background-color: pink;
+h1 {background-color: pink;
     font-family: fantasy;
   padding: 30px;
   margin: 15px;
   margin-right: 1000px;}
 
-  ul {list-style-type: none;
+ul {list-style-type: none;
       margin:10
       padding:20px;}
 
-  ul li {display: inline;
+ul li {display: inline;
   border-radius: 5px;
 margin: 20px;}
 

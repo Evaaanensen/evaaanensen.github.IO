@@ -1,0 +1,70 @@
+body {
+  margin: 0px;
+  background-color:#F0F0F0
+
+
+}
+header{
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 2fr 5fr 1fr 1fr 1fr;
+  margin-bottom: 5px;
+  background-color: #5C79AF
+
+}
+
+header>.lenke {
+  height: 100%;
+}
+.lenke{
+  align-self: center;
+}
+a{
+  color:#181F2B;
+  text-align: center;
+  font-family: arial;
+  font-size: 30px;
+}
+header>.lenke:hover {
+  background-color: #36496D;
+}
+header>.lenke>a{
+
+}
+
+#logo>h3{
+  color: #181F2B;
+  font-size: 50px;
+  font-family: arial;
+  margin: 5px;
+}
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 5px;
+  grid-auto-rows: minmax(50px,auto);
+  /*For å redigere høyden tar jeg denne koden*/
+}
+main>section {
+  background-color: #9FB0D0;
+
+}
+.middelsak {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+.storsak {
+  grid-column: span 3;
+  grid-row: span 3;
+
+}
+img{
+  height: 300px;
+  width: 500px;
+}
+video{
+
+  width: 800px;
+}
