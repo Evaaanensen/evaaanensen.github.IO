@@ -6,6 +6,7 @@ body{
   background-repeat: no-repeat;
   background-position: top;
   font-family: courier;
+  font-size: 30px;
 
 }
 /* HEADER STARTER*/
@@ -70,15 +71,29 @@ li a:hover{
 /*HEADER SLUTTER*/
 /* MAIN STARTER*/
 main{
+  color: white;
 
 }
+
 .flex-container{
 display: flex;
 background-color: transparent;
+height: 750px;
+width: 1450px;
+align-items: center;
+align-content: space-around;
+justify-content: center;
+
 }
 .flex-container>div{
   background-color: transparent;
   margin: 10px;
   padding: 20px;
+  font-size: 40px;
+}
+.slagord{
+  text-align: center;
+}
+p{
   font-size: 30px;
 }
