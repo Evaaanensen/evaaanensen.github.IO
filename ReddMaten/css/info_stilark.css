@@ -1,0 +1,41 @@
+body{
+  background-color: lightgrey;
+}
+.logo{
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+.main-nav{
+  float: right;
+  list-style: none;
+  margin-top: 30px;
+}
+.main-nav> li
+{
+  display: inline-block;
+}
+.main-nav> li> a{
+  color: white;
+  text-decoration: none;
+  padding: 5px 20px;
+  font-family: "Roboto",sans-serif;
+  font-size: 25px;
+}
+.main-nav> .active> a{
+  border: 2px solid white;
+}
+.main-nav> li> a:hover{
+  border: 2px solid white;
+}
+.logo{
+  float: left;
+}
+.logo> h2{
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 45px;
+}
+.row{
+  max-width: 1200px;
+  margin: auto;
+}
